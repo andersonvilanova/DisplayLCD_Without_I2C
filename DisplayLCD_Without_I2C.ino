@@ -11,7 +11,7 @@ void setup() {
 
 void loop() {
   lcd.setCursor(0, 0); // Defines in which column and row the text should start.
-  lcd.print("  IdeiasTecLab  "); // Text to be displayed
+  lcd.print("Estanho & Solda"); // Text to be displayed
   lcd.setCursor(0, 1); // Defines in which column and row the text should start.
   lcd.print("  Display  LCD"); // text to be displayed
   delay(5000);
@@ -19,7 +19,7 @@ void loop() {
   lcd.setCursor(0, 0); // Defines in which column and row the text should start.
   lcd.print("YouTube  Channel"); // New text inserted
   lcd.setCursor(0, 1); // Defines in which column and row the text should start.
-  lcd.print("  @ideiasteclab"); // New text inserted
+  lcd.print(" @estanhoesolda"); // New text inserted
   delay(5000);
   lcd.clear();
 }
